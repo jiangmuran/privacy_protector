@@ -76,7 +76,7 @@ print("请问在检测到可能泄密时按下的按键是：")
 print("1. Windows+M （windows下强制回到桌面，建议新手选择）")
 print("2. Control+Windows+Left （windows10下回到前一个桌面，需要提前配置）")
 print("3. VolumeUP （音量上升，仅供测试）")
-print("5. 自定义")
+print("4. 自定义")
 print("----------------------------------------------------------------------------")
 keymode=listss[int(input("你的选择："))]
 if (keymode==-1):
